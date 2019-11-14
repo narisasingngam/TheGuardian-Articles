@@ -1,0 +1,19 @@
+.details{
+    display: inline;
+}
+.container-detail{
+    position: absolute;
+    margin-left: 40px;
+    margin-right:40px;
+}
+.wrap-detail{
+    text-align: center;
+    color: cadetblue;
+}
+.url{
+    margin-top: 20px;
+    color: cadetblue;
+}
+.section{
+    margin-top: 10px;
+}
