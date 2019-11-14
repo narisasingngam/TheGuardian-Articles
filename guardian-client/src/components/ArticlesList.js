@@ -40,7 +40,7 @@ export class ArticlesList extends Component {
         }
         console.log(filterValues(event.target.value));
         if(event.target.value === "" ){
-            this.callAPI()
+            this.setState({searchArtcles: this.state.apiResponse})
         }
         else{
             this.setState({searchArtcles: filterValues(event.target.value)})
