@@ -2,9 +2,7 @@ import React, { Component } from 'react'
 import './../style/details.css'
 
 export class Details extends Component {
-    constructor(props) {
-        super(props);
-    }
+
     render() {
         const { state } = this.props.location
         return (
